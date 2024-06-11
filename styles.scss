@@ -1,0 +1,304 @@
+body {
+  background: linear-gradient(to right, #c0c0c1, #ffffff); 
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background-color: #323235;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list-header-container {
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.contact-list-header {
+  background-color: #3f51b5;
+  color: #fff; 
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.form-control {
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  padding: 10px;
+  transition: border-color 0.3s ease; 
+}
+
+.minimal-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+  box-shadow: none;
+}
+
+.minimal-input:focus {
+  border-bottom-color: #3f51b5; 
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.form-control:invalid {
+  border-bottom-color: #dc3545; 
+}
+
+.btn-block {
+  border-radius: 5px;
+}
+
+#addContact {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+#addContact:hover {
+  background-color: #0056b3;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#addContact:active {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(2px);
+}
+
+.contact-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.contact-card h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.contact-actions .material-icons {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #3f51b5;
+}
+
+.contact-actions .material-icons:hover {
+  color: #26282b;
+}
+
+.contact-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-name {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.contact-phone {
+    font-size: 1rem;
+    margin: 0;
+    text-align: right;
+}
+
+.contact-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.contact-actions .material-icons {
+    cursor: pointer;
+    margin: left 2px;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+}
+
+.form-label i.material-icons {
+  margin-right: 5px;
+}
+
+/* Add this CSS code at the end of the existing CSS */
+
+/* Add this CSS code at the end of the existing CSS */
+
+/* Set a fixed width for form inputs to make them shorter */
+.form-control.minimal-input {
+  width: 80%;
+  display: inline-block;
+  border: none; /* Remove border */
+  background-color: transparent; /* Make background transparent */
+  padding: 0; /* Remove padding */
+  box-shadow: none; /* Remove shadow */
+  border-bottom: 2px solid #ccc; /* Add bottom border */
+  border-radius: 0; /* Remove border radius */
+  transition: border-color 0.3s ease;
+}
+
+.form-control.minimal-input:focus {
+  border-color: #3f51b5; /* Change bottom border color on focus */
+  box-shadow: none; /* Remove box-shadow */
+}
+
+.form-control.minimal-input::placeholder {
+  color: #999;
+}
+
+.form-group.d-flex.align-items-center label {
+  width: auto;
+  margin-bottom: 0;
+}
+
+.form-group.d-flex.align-items-center select {
+  width: auto;
+  display: inline-block;
+}
+
+.btn-block {
+  border-radius: 5px;
+}
+
+#addContact {
+  transition: background-color 0.3s ease;
+}
+
+#addContact:hover {
+  background-color: #26282b;
+}
+
+.contact-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.contact-card h5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.contact-actions .material-icons {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #3f51b5;
+  vertical-align: middle; /* Align icons vertically */
+  position: relative;
+  top: -12px; /* Move icons slightly upwards */
+}
+
+.contact-actions .material-icons:hover {
+  color: #26282b;
+}
+
+.contact-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.contact-phone {
+  font-size: 1rem;
+  margin: 0;
+  text-align: right;
+}
+
+.contact-actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.contact-actions .material-icons {
+  cursor: pointer;
+  margin: left 2px;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+}
+
+.form-label i.material-icons {
+  margin-right: 5px;
+}
